@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_task_list">任务列表</string>
+    <string name="title_settings">设置</string>
+    <string name="action_settings">设置</string>
+    <string name="action_add_task">新增任务</string>
+    <string name="action_back">返回</string>
+    <string name="action_delete">删除</string>
+    <string name="action_mark_done">标记完成</string>
+    <string name="action_mark_undone">取消完成</string>
+    <string name="task_list_empty">暂无任务</string>
+    <string name="task_completed">已完成</string>
+    <string name="settings_media_projection">截屏辅助服务</string>
+    <string name="settings_overlay">悬浮窗</string>
+    <string name="settings_notification">通知</string>
+    <string name="settings_status_enabled">已开启</string>
+    <string name="settings_status_disabled">未开启</string>
+    <string name="action_go_enable">去开启</string>
+    <string name="action_open">打开</string>
+    <string name="action_grant">授予</string>
+    <string name="settings_enable">启用</string>
+    <string name="settings_overlay_xiaomi_hint">小米 / MIUI 系统请在此处开启「显示悬浮窗」</string>
+    <string name="accessibility_service_label">屏幕文字识别</string>
+    <string name="accessibility_service_summary">截取屏幕并提取其中的文字</string>
+    <string name="accessibility_service_description">开启后，应用才能截取屏幕并识别其中的文字内容。不会读取或上传其他信息。</string>
+    <string name="ocr_in_progress">正在截屏并识别文字…</string>
+    <string name="ocr_result_title">识别到的文本</string>
+    <string name="ocr_failed">识别失败：%1$s</string>
+    <string name="capture_service_disabled">截屏辅助服务未开启，请先在「设置」中开启</string>
+    <string name="capture_service_disconnected">截屏辅助服务已断开，请到「设置」重新开启</string>
+    <string name="capture_failed">截屏失败：%1$s</string>
+
+    <string name="overlay_permission_missing">请先在「设置」中开启悬浮窗权限</string>
+    <string name="task_save_failed">保存任务失败：%1$s</string>
+    <string name="task_delete_failed">删除任务失败：%1$s</string>
+    <string name="task_deleted">已删除任务</string>
+    <string name="overlay_title">识别到任务</string>
+    <string name="overlay_name_label">任务名</string>
+    <string name="overlay_due">截止：%1$s</string>
+    <string name="overlay_due_none">未识别到时间</string>
+    <string name="overlay_save">保存任务</string>
+    <string name="overlay_ignore">忽略</string>
+    <string name="task_saved">已保存任务</string>
+
+    <!-- 任务详情页 -->
+    <string name="title_task_detail">任务详情</string>
+    <string name="task_detail_missing">任务不存在或已被删除</string>
+    <string name="detail_status">状态</string>
+    <string name="detail_status_done">已完成</string>
+    <string name="detail_status_pending">未完成</string>
+    <string name="detail_created">创建时间</string>
+    <string name="detail_due">截止时间</string>
+    <string name="detail_original_text">识别原文</string>
+    <string name="detail_original_none">无</string>
+
+    <!-- 距截止剩余时间 -->
+    <string name="remaining_none">未设置截止时间</string>
+    <string name="remaining_overdue">已过期</string>
+    <string name="remaining_days">%1$d 天 %2$d 小时后截止</string>
+    <string name="remaining_hours">%1$d 小时 %2$d 分后截止</string>
+    <string name="remaining_minutes">%1$d 分钟后截止</string>
+
+    <!-- 自动截图识别 -->
+    <string name="settings_auto_capture">自动识别系统截图</string>
+    <string name="settings_auto_capture_hint">开启后，在任意界面用系统截屏键截屏，本应用会在后台自动识别并弹出任务确认框。</string>
+    <string name="settings_media_permission">照片和视频权限</string>
+    <string name="action_grant_permission">授予权限</string>
+    <string name="settings_media_permission_limited">当前仅授予「选定照片」，请改为「允许全部照片和视频」，否则无法自动读取新截图</string>
+
+    <!-- 状态提示设置 -->
+    <string name="settings_status_display">状态提示</string>
+    <string name="settings_status_display_hint">在状态栏常驻显示当前待办任务，无有效任务时自动移除</string>
+    <string name="status_mode_off">关闭</string>
+    <string name="status_mode_sidebar">侧边提示条</string>
+    <string name="status_mode_island">灵动岛样式</string>
+    <string name="settings_miui_section">小米 / MIUI 后台权限</string>
+    <string name="settings_miui_hint">MIUI 可能限制后台常驻，请开启以下权限，否则状态提示会被系统清理</string>
+    <string name="settings_miui_autostart">自启动</string>
+    <string name="settings_miui_background_popup">后台弹出界面</string>
+    <string name="settings_miui_battery">省电策略 / 应用详情</string>
+    <string name="settings_miui_keepalive">后台保活建议</string>
+    <string name="settings_miui_keepalive_hint">建议在「最近任务」中下拉锁定本应用，并将省电策略设为「无限制」，避免状态提示与到期提醒被系统清理。\n另外请关闭「电池」设置里对本应用的「应用智能省电」限制。</string>
+
+    <!-- 状态提示通知 -->
+    <string name="status_channel_name">任务状态提示</string>
+    <string name="status_channel_desc">常驻显示当前待办任务</string>
+    <string name="status_sidebar_title">待办任务（%1$d）</string>
+    <string name="status_sidebar_line">· %1$s</string>
+
+    <!-- 到期提醒通知 -->
+    <string name="notify_channel_name">任务提醒</string>
+    <string name="notify_channel_desc">任务即将到期时的提醒通知</string>
+    <string name="notify_title">任务即将到期</string>
+    <string name="notify_content">%1$s · %2$s 截止</string>
+
+    <!-- AI 识别（DeepSeek） -->
+    <string name="settings_ai_section">AI 识别（DeepSeek）</string>
+    <string name="settings_ai_hint">截屏识别出的文字会发送到 DeepSeek 用于提取任务和截止时间，需要联网。</string>
+    <string name="settings_ai_key">API Key</string>
+    <string name="settings_ai_key_hint">在 DeepSeek 开放平台创建，仅保存在本机</string>
+    <string name="settings_ai_key_configured">已配置</string>
+    <string name="settings_ai_key_missing">未配置</string>
+    <string name="action_show">显示</string>
+    <string name="action_hide">隐藏</string>
+    <string name="ai_key_missing">尚未配置 DeepSeek API Key，请到「设置」填写</string>
+    <string name="ai_failed">AI 识别失败：%1$s</string>
+    <string name="ai_no_task">AI 未能从屏幕文字中识别出任务</string>
+</resources>

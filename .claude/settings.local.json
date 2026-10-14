@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew :app:assembleDebug :app:testDebugUnitTest --console=plain)"
+    ]
+  }
+}
